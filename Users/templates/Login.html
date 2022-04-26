@@ -3,6 +3,7 @@
 <div>
     <h3>Login</h3>
     <form method="POST">
+        {% csrf_token %}
         {{ LoginForm | as_bootstrap }}
         <button type="submit">Login</button>
         <h4>or</h4>
