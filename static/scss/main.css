@@ -140,3 +140,180 @@
   --Khaki: #F0E68C;
   --DarkKhaki: #BDB76B;
 }
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.container {
+  padding: 10px;
+}
+
+.row {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  padding: 30px;
+}
+
+.row .column {
+  padding: 10px;
+}
+
+.row .column.sm-1 {
+  grid-column: span 1;
+}
+
+.row .column.sm-2 {
+  grid-column: span 2;
+}
+
+.row .column.sm-3 {
+  grid-column: span 3;
+}
+
+.row .column.sm-4 {
+  grid-column: span 4;
+}
+
+.row .column.sm-5 {
+  grid-column: span 5;
+}
+
+.row .column.sm-6 {
+  grid-column: span 6;
+}
+
+.row .column.sm-7 {
+  grid-column: span 7;
+}
+
+.row .column.sm-8 {
+  grid-column: span 8;
+}
+
+.row .column.sm-9 {
+  grid-column: span 9;
+}
+
+.row .column.sm-10 {
+  grid-column: span 10;
+}
+
+.row .column.sm-11 {
+  grid-column: span 11;
+}
+
+.row .column.sm-12 {
+  grid-column: span 12;
+}
+
+.row .column {
+  padding: 10px;
+}
+
+.row .column.md-1 {
+  grid-column: span 1;
+}
+
+.row .column.md-2 {
+  grid-column: span 2;
+}
+
+.row .column.md-3 {
+  grid-column: span 3;
+}
+
+.row .column.md-4 {
+  grid-column: span 4;
+}
+
+.row .column.md-5 {
+  grid-column: span 5;
+}
+
+.row .column.md-6 {
+  grid-column: span 6;
+}
+
+.row .column.md-7 {
+  grid-column: span 7;
+}
+
+.row .column.md-8 {
+  grid-column: span 8;
+}
+
+.row .column.md-9 {
+  grid-column: span 9;
+}
+
+.row .column.md-10 {
+  grid-column: span 10;
+}
+
+.row .column.md-11 {
+  grid-column: span 11;
+}
+
+.row .column.md-12 {
+  grid-column: span 12;
+}
+
+.row .column {
+  padding: 10px;
+}
+
+.row .column.lg-1 {
+  grid-column: span 1;
+}
+
+.row .column.lg-2 {
+  grid-column: span 2;
+}
+
+.row .column.lg-3 {
+  grid-column: span 3;
+}
+
+.row .column.lg-4 {
+  grid-column: span 4;
+}
+
+.row .column.lg-5 {
+  grid-column: span 5;
+}
+
+.row .column.lg-6 {
+  grid-column: span 6;
+}
+
+.row .column.lg-7 {
+  grid-column: span 7;
+}
+
+.row .column.lg-8 {
+  grid-column: span 8;
+}
+
+.row .column.lg-9 {
+  grid-column: span 9;
+}
+
+.row .column.lg-10 {
+  grid-column: span 10;
+}
+
+.row .column.lg-11 {
+  grid-column: span 11;
+}
+
+.row .column.lg-12 {
+  grid-column: span 12;
+}
