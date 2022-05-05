@@ -6,23 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'scss/main.css' %}">
+    <link href="{% static 'fontawesomefree/css/fontawesome.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/brands.css' %}" rel="stylesheet" type="text/css">
+    <link href="{% static 'fontawesomefree/css/solid.css' %}" rel="stylesheet" type="text/css">
+    <script src="{% static 'fontawesomefree/js/all.min.js' %}"></script>
     <title>Danny's Game Shop</title>
 </head>
 <body>
-    <nav>
-        <div>
-            <div>
-                <ahref="/">Help the Homeless</a>
+<header class="no-mobile">
+    <div class="main-header">
+        <nav>
+            <a class="nav-logo" href="/">Danny's Game Shop</a>
+            <div class="searchbar">
+                <form action="POST">
+                    <input type="text"><input type="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </form>
             </div>
-            <div>
-                <ul >
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">User</a></li>
-                    <li><a href="#">Inventory</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+            <div class="nav-right">
+                <div class="accounts">
+                    <a href="#"><i class="fa-solid fa-user"></i></a>
+                </div>
+                <div class="basket">
+                    <a href="#"><i class="search-icon fa-solid fa-basket-shopping"></i></a>
+                </div>
+            </div>            
+        </nav>
+    </div>
+</header>
+    
     {% block content %}
     {% endblock %}
 </body>
