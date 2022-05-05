@@ -7,10 +7,12 @@ cycler==0.10.0
 distlib==0.3.2
 Django==3.2.5
 django-crispy-forms==1.12.0
+django-forms-bootstrap==3.1.0
 et-xmlfile==1.1.0
 filelock==3.0.12
 Flask==2.0.1
 Flask-SQLAlchemy==2.5.1
+fontawesomefree==6.1.1
 greenlet==1.1.0
 itsdangerous==2.0.1
 Jinja2==3.0.1
